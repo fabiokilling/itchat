@@ -31,6 +31,8 @@ PIL无法定位到字体文件的位置，可以进行以下操作：
 例如：我查找到的绝对路径是：C:\ProgramData\Anaconda3\Lib\site-packages\matplotlib\mpl-data\fonts\ttf\cmb10.ttf
 
 所以要把\改成/，混蛋为什么我电脑会这样。
+(突然想起来，其实很简单啊，我使用的是spyder，然后瞎按，一般我以为是Ctrl+F就能解决，但是查找里面没有替换功能，然后按到了Ctrl+R发现可以了，在
+搜索栏里面输入符号\，然后再在Replace with：里面输入符号/，点击Replace all就可以一次性全部替换了）。。话说写这段话我老是想按Tab补全拼写，入迷了。。
 
 
 
