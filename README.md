@@ -47,4 +47,15 @@ PIL无法定位到字体文件的位置，可以进行以下操作：
 
 
 
+
+发现 STOPWORDS 模块 应该可以去掉最后统计的词频里面不想要的词，甚至投机把正则没去掉的不想要的几个词或出错的几个词去掉，测试了貌似成功了
+stopwords = STOPWORDS.copy()
+stopwords.add("输入你想屏蔽的关键词")    #输入你想屏蔽的关键词
+
+前面要import一个东西
+from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+把STOPWORDS加上就行了
+
+
+
 未完待续...
