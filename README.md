@@ -11,4 +11,11 @@ https://blog.csdn.net/u012942818/article/details/75144001
 报错信息如下SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
 解决方式为，将路径中的\全部改为/
 
+
+运行报错OSError: cannot open resource
+
+很明显的字体文件找不到位置，python的报错好容易看懂的说。
+解决中!!
+
+
 未完待续...
